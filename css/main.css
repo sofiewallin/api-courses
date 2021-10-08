@@ -1,0 +1,87 @@
+html, 
+*, 
+*::after, 
+*::before {   
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+html, 
+body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+    color:rgba(43, 58, 66, 1);
+    font: normal 1.6rem/1.5 Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 540px;
+    padding: 30px 10px;
+    width: 100%;
+}
+
+pre {
+    background-color: rgba(43, 58, 66, 1);
+    color: rgba(165, 206, 225, 1);
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    max-width: 100%;
+    overflow: auto;
+    padding: 10px;
+}
+
+pre + * {
+    padding-top: 15px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.3;
+    margin-bottom: 0.3em;
+}
+
+h1 {
+    font-size: 3.0rem;
+}
+
+p, 
+ul {
+    margin-bottom: 1em;
+}
+
+p:last-child,
+ul:last-child {
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+.message {
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+    padding: 10px;
+}
+
+.message.success {
+    border-color: rgba(74, 181, 118, 1);
+    background-color: rgba(74, 181, 118, 0.4);
+}
