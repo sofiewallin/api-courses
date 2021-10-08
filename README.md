@@ -64,6 +64,9 @@ Delete a course using the DELETE method by entering an ID parameter according to
 
 Here's some information you need if your going to clone and use this repository with your own database connection.
 
+### Clone repository
+To clone repository use this command `git clone https://github.com/sofiewallin/api-courses.git`.
+
 ### Database connection
 
 To establish a connection to your database you need to follow these steps:
